@@ -1,40 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj": {}
+    "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Api/SocialMedia.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj": {
+    "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Api/SocialMedia.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj",
+        "projectUniqueName": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Api/SocialMedia.Api.csproj",
         "projectName": "SocialMedia.Api",
-        "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj",
-        "packagesPath": "C:\\Users\\j.rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Api\\obj\\",
+        "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Api/SocialMedia.Api.csproj",
+        "packagesPath": "/Users/jahironrodriguez/.nuget/packages/",
+        "outputPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\j.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jahironrodriguez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
-                "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
+              "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj": {
+                "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj"
               },
-              "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj"
+              "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj": {
+                "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj"
               }
             }
           }
@@ -47,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -55,6 +52,10 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[10.2.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.16, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -93,35 +94,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+    "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectUniqueName": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj",
         "projectName": "SocialMedia.Core",
-        "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
-        "packagesPath": "C:\\Users\\j.rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\obj\\",
+        "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj",
+        "packagesPath": "/Users/jahironrodriguez/.nuget/packages/",
+        "outputPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\j.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jahironrodriguez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -133,6 +130,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -159,38 +157,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj": {
+    "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj",
+        "projectUniqueName": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj",
         "projectName": "SocialMedia.Infrastructure",
-        "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\j.rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\obj\\",
+        "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj",
+        "packagesPath": "/Users/jahironrodriguez/.nuget/packages/",
+        "outputPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\j.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jahironrodriguez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
-                "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
+              "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj": {
+                "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.Core/SocialMedia.Core.csproj"
               }
             }
           }
@@ -203,6 +197,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
@@ -239,7 +234,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj": {}
+    "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.UnitTests/SocialMedia.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj": {
+    "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.UnitTests/SocialMedia.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj",
+        "projectUniqueName": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.UnitTests/SocialMedia.UnitTests.csproj",
         "projectName": "SocialMedia.UnitTests",
-        "projectPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\j.rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\j.rodriguez\\source\\repos\\SocialMedia\\SocialMedia.UnitTests\\obj\\",
+        "projectPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.UnitTests/SocialMedia.UnitTests.csproj",
+        "packagesPath": "/Users/jahironrodriguez/.nuget/packages/",
+        "outputPath": "/Users/jahironrodriguez/Documents/SocialMedia/SocialMedia/SocialMedia.UnitTests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\j.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jahironrodriguez/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -73,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

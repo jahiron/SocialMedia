@@ -12,12 +12,15 @@ using SocialMedia.Core.QueryFilters;
 using SocialMedia.Core.CustomEntities;
 using Newtonsoft.Json;
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SocialMedia.Api.Controllers
 {
+    [Authorize]
     [Produces("application/json")]
+    [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
     [Route("api/[controller]")]
     [ApiController]
     public class PostController : ControllerBase

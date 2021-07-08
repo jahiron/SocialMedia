@@ -1,9 +1,6 @@
 ﻿using AutoMapper;
 using SocialMedia.Core.DTOs;
 using SocialMedia.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SocialMedia.Core.Mappings
 {
@@ -13,6 +10,8 @@ namespace SocialMedia.Core.Mappings
         {
             CreateMap<Post, PostDto>();
             CreateMap<PostDto, Post>();
+            CreateMap<User, UserDto>();
+            CreateMap<UserDto, User>();
         }
     }
 }
